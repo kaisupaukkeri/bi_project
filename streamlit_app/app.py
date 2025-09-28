@@ -16,7 +16,7 @@ st.write("Typpidioksidi on kaasumainen epäpuhtaus, jota on pääsiasiassa liike
 
 
 # CSV:n lukeminen
-df = pd.read_csv("/users/raunopaukkeri/Kaisuhamk/bi_project/data/processed/ilmanlaatu_tampere_helsinki.csv")
+df = pd.read_csv("../data/processed/ilmanlaatu_tampere_helsinki.csv")
 
 # Muutetaan datetime aikamuotoon
 df["datetime"] = pd.to_datetime(df["datetime"])
