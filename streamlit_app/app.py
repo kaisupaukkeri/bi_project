@@ -1,6 +1,17 @@
 import streamlit as st
 import pandas as pd
 import altair as alt
+import requests
+from io import StringIO
+
+def load_original_data():
+    url = 'https://raw.githubusercontent.com/kaisupaukkeri/bi_project/main/data/processed/ilmanlaatu_tampere_helsinki.csv'
+    response = requests.get(url)
+    if response.status_code == 200:
+        return pd.read_csv(StringIO(response.text))
+    else:
+        st.error("Failed to load data from GitHub.")
+        return None
 
 st.title("Ilmanlaadun vertailu: Helsinki vs Tampere")
 st.write("Raportti perustuu avoimeen ilmanlaatudataan, joka on saatavilla ilmatieteenlaitoksen sivuilta. Tarkoituksena on vertailla kaupunkien keskustojen ilmanlaatua viikon ajalta, joten mittausasemiksi on valittu Tampereelta Linja-autoaseman sekä Helsingistä Mannerheimintien mittausasema.")
@@ -16,7 +27,7 @@ st.write("Typpidioksidi on kaasumainen epäpuhtaus, jota on pääsiasiassa liike
 
 
 # CSV:n lukeminen
-df = pd.read_csv("../data/processed/ilmanlaatu_tampere_helsinki.csv")
+df = load_original_data()
 
 # Muutetaan datetime aikamuotoon
 df["datetime"] = pd.to_datetime(df["datetime"])
