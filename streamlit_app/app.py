@@ -48,6 +48,11 @@ keskiarvot = df.groupby("location")[["PM25", "NO2", "AQI"]].mean().reset_index()
 # Näytetään siistissä muodossa
 st.dataframe(keskiarvot, use_container_width=True)
 
+# Viimeisin päivitys
+with open("../data/processed/last_updated.txt") as f:
+    last_updated = f.read()
+
+st.caption(f"📅 Viimeisin päivitys: {last_updated}")
 
 st.subheader("Valitse kaupunki ja mittari ilmanlaadun tarkastelua varten.")
 st.write("Oletukseksi on asetettu Tampereen ja Helsingin ilmanlaadun tarkastelu, mutta halutessasi voit vertailla kaikkien neljän mittausaseman ilmanlaatuja.")
