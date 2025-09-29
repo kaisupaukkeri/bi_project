@@ -3,7 +3,3 @@ pandas
 matplotlib
 ipykernel
 fmiopendata
-request
-python-dateutil
-jupyter
-nbconvert
