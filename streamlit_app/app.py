@@ -79,7 +79,9 @@ keskiarvot = df_filtered.groupby("location")[[valinta]].mean().reset_index()
 # Pylväsdiagrammeihin siistimmät nimet
 keskiarvot["location"] = keskiarvot["location"].replace({
     "Helsinki Mannerheimintie": "Helsinki",
-    "Tampere Linja-autoasema": "Tampere"
+    "Tampere Linja-autoasema": "Tampere",
+    "Espoo Leppävaara Läkkisepänkuja": "Espoo",
+    "Vantaa Tikkurila Neilikkatie": "Vantaa"
 })
 
 
