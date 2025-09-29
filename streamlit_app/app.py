@@ -13,8 +13,8 @@ def load_original_data():
         st.error("Failed to load data from GitHub.")
         return None
 
-st.title("Ilmanlaadun vertailu: Helsinki vs Tampere")
-st.write("Raportti perustuu avoimeen ilmanlaatudataan, joka on saatavilla ilmatieteenlaitoksen sivuilta. Tarkoituksena on vertailla kaupunkien keskustojen ilmanlaatua viikon ajalta, joten mittausasemiksi on valittu Tampereelta Linja-autoaseman sekä Helsingistä Mannerheimintien mittausasema.")
+st.title("Ilmanlaadun vertailu: Tampere vs Uudenmaan suurimmat kaupungit")
+st.write("Raportti perustuu avoimeen ilmanlaatudataan, joka on saatavilla ilmatieteenlaitoksen sivuilta. Tarkoituksena on vertailla kaupunkien keskustojen ilmanlaatua viikon ajalta, joten mittausasemiksi on valittu Tampereelta Linja-autoaseman, Helsingistä Mannerheimintien mittausasema, Espoosta Leppävaaran Läkkisepänkuja sekä Vantaalta Tikkurilan Neilikkatie.")
 
 st.markdown("###### PM2.5")
 st.write("Halkaisijaltaan alle 2,5 µm hiukkasia kutsutaan pienhiukkasiksi. Ne ovat niin pieniä, että ne voivat tunkeutua syvälle keuhkoihin. Korkeat PM2.5 pitoisuudet heikentävät ilmanlaatua merkittävästi ja voivat aiheuttaa hengitys- ja sydänsairauksia, erityisesti lapsille, vanhuksille ja astmaatikoille.")
@@ -50,12 +50,14 @@ st.dataframe(keskiarvot, use_container_width=True)
 
 
 st.subheader("Valitse kaupunki ja mittari ilmanlaadun tarkastelua varten.")
+st.write("Oletukseksi on asetettu Tampereen ja Helsingin ilmanlaadun tarkastelu, mutta halutessasi voit vertailla kaikkien neljän mittausaseman ilmanlaatuja.")
 
 # Valitaan kaupungit
 kaupungit = st.multiselect(
     "Valitse kaupungit:",
     options=df["location"].unique(),
-    default=list(df["location"].unique())
+    #default=list(df["location"].unique())
+    default=["Helsinki Mannerheimintie", "Tampere Linja-autoasema"]
 )
 
 # Suodatetaan data kaupungin perusteella
