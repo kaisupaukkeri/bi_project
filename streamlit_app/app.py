@@ -45,25 +45,31 @@ df = df.rename(columns={
 st.subheader("Yleiskuva kaupunkien ilmanlaadusta")
 st.write("Tässä taulukossa on koottuna keskiarvot mittaustuloksista 7 vuorokauden ajalta.")
 
-# Add timestamp to report
-csv_path = 'https://raw.githubusercontent.com/kaisupaukkeri/bi_project/main/data/processed/ilmanlaatu_tampere_helsinki.csv'
-response = requests.head(csv_path)
-last_modified = response.headers.get('Last-Modified')
-last_updated = datetime.strptime(last_modified, '%a, %d %b %Y %H:%M:%S %Z')
 
-st.caption(f"📅 Viimeisin päivitys: {last_updated.strftime('%Y-%m-%d %H:%M:%S')}")
+# Add timestamp to report from GitHub API and the latest commit
+# GitHub-repo and file
+owner = "kaisupaukkeri"
+repo = "bi_project"
+file_path = "data/processed/ilmanlaatu_tampere_helsinki.csv"
+
+# The lastest commit to csv file from GitHub API
+url = f"https://api.github.com/repos/{owner}/{repo}/commits?path={file_path}&page=1&per_page=1"
+response = requests.get(url)
+data = response.json()
+
+if data:
+    commit_date = data[0]['commit']['committer']['date']
+    last_updated = datetime.strptime(commit_date, "%Y-%m-%dT%H:%M:%SZ")
+    st.caption(f"📅 Viimeisin päivitys: {last_updated.strftime('%Y-%m-%d %H:%M:%S')}")
+else:
+    st.caption("📅 Viimeisin päivitys: Ei saatavilla")
+
 
 # Group the averages from all meters (PM25, NO2, AQI) per location
 keskiarvot = df.groupby("location")[["PM25", "NO2", "AQI"]].mean().reset_index()
 
 # Näytetään siistissä muodossa
 st.dataframe(keskiarvot, use_container_width=True)
-
-# The latest update
-#with open("../data/processed/last_updated.txt") as f:
-#    last_updated = f.read()
-
-#st.caption(f"📅 Viimeisin päivitys: {last_updated}")
 
 st.subheader("Valitse kaupunki ja mittari ilmanlaadun tarkastelua varten.")
 st.write("Oletukseksi on asetettu Tampereen ja Helsingin ilmanlaadun tarkastelu, mutta halutessasi voit vertailla kaikkien neljän mittausaseman ilmanlaatuja.")
