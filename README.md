@@ -18,4 +18,5 @@ Tämä projekti analysoi Tampereen ja Uudenmaan suurimpien kaupunkien (Helsinki,
 
 ## Yhteydenotto
 Kaisu Paukkeri - [LinkedIn](https://www.linkedin.com/in/kaisupaukkeri/)
+
 Projekti - https://github.com/kaisupaukkeri/bi_project
