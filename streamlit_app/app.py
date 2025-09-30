@@ -3,6 +3,8 @@ import pandas as pd
 import altair as alt
 import requests
 from io import StringIO
+import os
+from datetime import datetime
 
 def load_original_data():
     url = 'https://raw.githubusercontent.com/kaisupaukkeri/bi_project/main/data/processed/ilmanlaatu_tampere_helsinki.csv'
@@ -43,6 +45,14 @@ df = df.rename(columns={
 # Table of averages to get an overview
 st.subheader("Yleiskuva kaupunkien ilmanlaadusta")
 st.write("Tässä taulukossa on koottuna keskiarvot mittaustuloksista 7 vuorokauden ajalta.")
+
+# Add timestamp to report
+csv_path = "data/processed/ilmanlaatu_tampere_helsinki.csv"
+timestamp = os.path.getmtime(csv_path)
+last_updated = datetime.fromtimestamp(timestamp)
+
+st.caption(f"📅 Viimeisin päivitys: {last_updated.strftime('%Y-%m-%d %H:%M:%S')}")
+
 # Group the averages from all meters (PM25, NO2, AQI) per location
 keskiarvot = df.groupby("location")[["PM25", "NO2", "AQI"]].mean().reset_index()
 
@@ -119,7 +129,6 @@ st.altair_chart(line, use_container_width=False)
 #).properties(width=800, height=400)
 
 #st.altair_chart(scatter, use_container_width=False)
-
 
 # Show raw data
 st.subheader("Raakadata")
