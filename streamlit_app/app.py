@@ -47,7 +47,7 @@ st.write("Tässä taulukossa on koottuna keskiarvot mittaustuloksista 7 vuorokau
 
 # Add timestamp to report
 csv_path = 'https://raw.githubusercontent.com/kaisupaukkeri/bi_project/main/data/processed/ilmanlaatu_tampere_helsinki.csv'
-response = requests.head(csv_url)
+response = requests.head(csv_path)
 last_modified = response.headers.get('Last-Modified')
 last_updated = datetime.strptime(last_modified, '%a, %d %b %Y %H:%M:%S %Z')
 
