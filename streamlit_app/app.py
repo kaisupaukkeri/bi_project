@@ -47,7 +47,7 @@ st.subheader("Yleiskuva kaupunkien ilmanlaadusta")
 st.write("Tässä taulukossa on koottuna keskiarvot mittaustuloksista 7 vuorokauden ajalta.")
 
 # Add timestamp to report
-csv_path = "data/processed/ilmanlaatu_tampere_helsinki.csv"
+csv_path = 'https://raw.githubusercontent.com/kaisupaukkeri/bi_project/main/data/processed/ilmanlaatu_tampere_helsinki.csv'
 timestamp = os.path.getmtime(csv_path)
 last_updated = datetime.fromtimestamp(timestamp)
 
