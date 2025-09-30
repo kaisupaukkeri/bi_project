@@ -3,7 +3,6 @@ import pandas as pd
 import altair as alt
 import requests
 from io import StringIO
-import os
 from datetime import datetime
 
 def load_original_data():
@@ -48,8 +47,9 @@ st.write("Tässä taulukossa on koottuna keskiarvot mittaustuloksista 7 vuorokau
 
 # Add timestamp to report
 csv_path = 'https://raw.githubusercontent.com/kaisupaukkeri/bi_project/main/data/processed/ilmanlaatu_tampere_helsinki.csv'
-timestamp = os.path.getmtime(csv_path)
-last_updated = datetime.fromtimestamp(timestamp)
+response = requests.head(csv_url)
+last_modified = response.headers.get('Last-Modified')
+last_updated = datetime.strptime(last_modified, '%a, %d %b %Y %H:%M:%S %Z')
 
 st.caption(f"📅 Viimeisin päivitys: {last_updated.strftime('%Y-%m-%d %H:%M:%S')}")
 
