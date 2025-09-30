@@ -1,4 +1,4 @@
-# Ilmanlaatu-analyysi
+# Ilmanlaatuanalyysi
 
 Tämä projekti analysoi Tampereen ja Uudenmaan suurimpien kaupunkien (Helsinki, Espoo ja Vantaa) ilmanlaatudataa Ilmatieteenlaitoksen sivuiilta ja visualisoi tuloksia sekä Power BI -raportissa että interaktiivisessa Streamlit-sovelluksessa. Data päivittyy automaattisesti 12 tunnin välein.
 
