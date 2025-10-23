@@ -7,7 +7,7 @@ Tämä projekti analysoi Tampereen ja Uudenmaan suurimpien kaupunkien (Helsinki,
 - 🌐 [Streamlit-sovellus](https://app-ilmanlaatu-xgjkn479ugpezcohy2en9j.streamlit.app/)
 
 ## Data ja menetelmät
-- avoin data Ilmatieteenlaitokset sivuilta https://opendata.fmi.fi
+- avoin data ilmanlaatuhavainnoista Ilmatieteen laitokset sivuilta https://opendata.fmi.fi
 - Python
 - Power BI
 - Streamlit
