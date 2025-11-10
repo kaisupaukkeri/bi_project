@@ -1,22 +1,23 @@
-# Ilmanlaatuanalyysi
+# Air Quality Analysis
 
-Tämä projekti analysoi Tampereen ja Uudenmaan suurimpien kaupunkien (Helsinki, Espoo ja Vantaa) ilmanlaatudataa Ilmatieteenlaitoksen sivuiilta ja visualisoi tuloksia sekä Power BI -raportissa että interaktiivisessa Streamlit-sovelluksessa. Data päivittyy automaattisesti 12 tunnin välein.
+This project analyzes air quality data from Tampere and the largest cities in the Uusimaa region (Helsinki, Espoo, and Vantaa) using open data from the Finnish Meteorological Institute. The results are visualized in both a Power BI report and an interactive Streamlit application. The data is automatically updated every 12 hours.
 
-## Linkit visualisointeihin
-- 📊 [Power BI -raportti](https://kaisupaukkeri.github.io/bi_project/powerbi/index.html)
-- 🌐 [Streamlit-sovellus](https://app-ilmanlaatu-xgjkn479ugpezcohy2en9j.streamlit.app/)
+## Vizualization Links
+- 📊 [Power BI Report](https://kaisupaukkeri.github.io/bi_project/powerbi/index.html)
+- 🌐 [Streamlit Application](https://app-ilmanlaatu-xgjkn479ugpezcohy2en9j.streamlit.app/)
 
-## Data ja menetelmät
-- avoin data ilmanlaatuhavainnoista Ilmatieteen laitokset sivuilta https://opendata.fmi.fi
+## Data and Methods
+- Open air quality observation data from the Finnish Meteorological Institute: https://opendata.fmi.fi
 - Python
 - Power BI
 - Streamlit
+- GitHub Actions
 
-## Käyttöohjeet
-- Datan päivitys: GitHub Actions -työnkulku
-- Nettisivun päivittäminen: päivitä `bi_project/streamlit_app/app.py` -tiedostoa
+## Usage Instructions
+- Data update: Automated with GitHub Actions workflow
+- Website update: Modify the `bi_project/streamlit_app/app.py` file
 
-## Yhteydenotto
+## Contact
 Kaisu Paukkeri - [LinkedIn](https://www.linkedin.com/in/kaisupaukkeri/)
 
-Projekti - https://github.com/kaisupaukkeri/bi_project
+Project - https://github.com/kaisupaukkeri/bi_project
