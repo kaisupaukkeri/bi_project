@@ -57,14 +57,22 @@ url = f"https://api.github.com/repos/{owner}/{repo}/commits?path={file_path}&pag
 response = requests.get(url)
 data = response.json()
 
-#if data:
-#    commit_date = data[0]['commit']['committer']['date']
-#    last_updated = datetime.strptime(commit_date, "%Y-%m-%dT%H:%M:%SZ")
-#    st.caption(f"📅 Viimeisin päivitys: {last_updated.strftime('%Y-%m-%d %H:%M:%S')}")
-#else:
-#    st.caption("📅 Viimeisin päivitys: Ei saatavilla")
+# Check if data is available and ensure the expected keys exist before accessing them.
+# This handles situations where the 'commit' or 'committer' might be missing or null,
+# preventing crashes and allowing for more graceful error handling.
+if data and len(data) > 0:
+    commit_info = data[0].get('commit', {})
+    committer_info = commit_info.get('committer', {})
 
+    commit_date = committer_info.get('date')
 
+    if commit_date:
+        last_updated = datetime.strptime(commit_date, "%Y-%m-%dT%H:%M:%SZ")
+        st.caption(f"📅 Viimeisin päivitys: {last_updated.strftime('%Y-%m-%d %H:%M:%S')}")
+    else:
+        st.caption("📅 Viimeisin päivitys: Ei saatavilla (puuttuva committer/date)")
+else:
+    st.caption("📅 Viimeisin päivitys: Ei saatavilla (ei dataa)")
 
 # Group the averages from all meters (PM25, NO2, AQI) per location
 keskiarvot = df.groupby("location")[["PM25", "NO2", "AQI"]].mean().reset_index()
