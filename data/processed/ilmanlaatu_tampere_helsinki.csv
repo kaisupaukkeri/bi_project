@@ -1,52 +1,4 @@
 datetime,location,Particulate matter < 2.5 µm,Air Quality Index,Nitrogen dioxide
-2025-11-19 22:00:00,Espoo Leppävaara Läkkisepänkuja,4.2,1.0,8.9
-2025-11-19 22:00:00,Helsinki Mannerheimintie,4.9,1.0,23.9
-2025-11-19 22:00:00,Vantaa Tikkurila Neilikkatie,3.3,1.0,6.5
-2025-11-19 22:00:00,Tampere Linja-autoasema,3.9,1.0,9.0
-2025-11-19 23:00:00,Espoo Leppävaara Läkkisepänkuja,3.8,1.0,8.2
-2025-11-19 23:00:00,Helsinki Mannerheimintie,4.9,1.0,19.9
-2025-11-19 23:00:00,Vantaa Tikkurila Neilikkatie,3.1,1.0,5.5
-2025-11-19 23:00:00,Tampere Linja-autoasema,2.4,1.0,7.2
-2025-11-20 00:00:00,Espoo Leppävaara Läkkisepänkuja,3.7,1.0,9.1
-2025-11-20 00:00:00,Helsinki Mannerheimintie,5.4,1.0,20.0
-2025-11-20 00:00:00,Vantaa Tikkurila Neilikkatie,3.2,1.0,6.2
-2025-11-20 00:00:00,Tampere Linja-autoasema,2.3,1.0,5.4
-2025-11-20 01:00:00,Espoo Leppävaara Läkkisepänkuja,4.0,1.0,8.6
-2025-11-20 01:00:00,Helsinki Mannerheimintie,8.1,1.0,24.8
-2025-11-20 01:00:00,Vantaa Tikkurila Neilikkatie,3.2,1.0,5.1
-2025-11-20 01:00:00,Tampere Linja-autoasema,2.7,1.0,4.3
-2025-11-20 02:00:00,Espoo Leppävaara Läkkisepänkuja,4.1,1.0,8.1
-2025-11-20 02:00:00,Helsinki Mannerheimintie,8.0,1.0,33.8
-2025-11-20 02:00:00,Vantaa Tikkurila Neilikkatie,3.1,1.0,5.3
-2025-11-20 02:00:00,Tampere Linja-autoasema,2.3,1.0,3.0
-2025-11-20 03:00:00,Espoo Leppävaara Läkkisepänkuja,4.2,1.0,8.8
-2025-11-20 03:00:00,Helsinki Mannerheimintie,5.4,1.0,27.8
-2025-11-20 03:00:00,Vantaa Tikkurila Neilikkatie,3.1,1.0,5.6
-2025-11-20 03:00:00,Tampere Linja-autoasema,2.5,1.0,6.1
-2025-11-20 04:00:00,Espoo Leppävaara Läkkisepänkuja,5.3,1.0,13.9
-2025-11-20 04:00:00,Helsinki Mannerheimintie,2.9,1.0,20.0
-2025-11-20 04:00:00,Vantaa Tikkurila Neilikkatie,3.5,1.0,10.0
-2025-11-20 04:00:00,Tampere Linja-autoasema,2.9,1.0,5.6
-2025-11-20 05:00:00,Espoo Leppävaara Läkkisepänkuja,5.9,1.0,26.8
-2025-11-20 05:00:00,Helsinki Mannerheimintie,2.0,1.0,16.4
-2025-11-20 05:00:00,Vantaa Tikkurila Neilikkatie,4.8,1.0,18.0
-2025-11-20 05:00:00,Tampere Linja-autoasema,3.3,1.0,8.5
-2025-11-20 06:00:00,Espoo Leppävaara Läkkisepänkuja,8.5,2.0,41.7
-2025-11-20 06:00:00,Helsinki Mannerheimintie,1.9,1.0,16.2
-2025-11-20 06:00:00,Vantaa Tikkurila Neilikkatie,5.2,1.0,27.9
-2025-11-20 06:00:00,Tampere Linja-autoasema,3.6,1.0,12.4
-2025-11-20 07:00:00,Espoo Leppävaara Läkkisepänkuja,10.0,2.0,39.9
-2025-11-20 07:00:00,Helsinki Mannerheimintie,2.3,1.0,11.0
-2025-11-20 07:00:00,Vantaa Tikkurila Neilikkatie,5.1,1.0,28.9
-2025-11-20 07:00:00,Tampere Linja-autoasema,3.8,1.0,14.4
-2025-11-20 08:00:00,Espoo Leppävaara Läkkisepänkuja,4.0,1.0,15.5
-2025-11-20 08:00:00,Helsinki Mannerheimintie,3.2,1.0,13.1
-2025-11-20 08:00:00,Vantaa Tikkurila Neilikkatie,4.3,1.0,29.4
-2025-11-20 08:00:00,Tampere Linja-autoasema,4.1,1.0,14.9
-2025-11-20 09:00:00,Espoo Leppävaara Läkkisepänkuja,4.7,1.0,12.6
-2025-11-20 09:00:00,Helsinki Mannerheimintie,4.8,1.0,11.5
-2025-11-20 09:00:00,Vantaa Tikkurila Neilikkatie,3.3,1.0,16.4
-2025-11-20 09:00:00,Tampere Linja-autoasema,3.2,1.0,16.1
 2025-11-20 10:00:00,Espoo Leppävaara Läkkisepänkuja,,,
 2025-11-20 10:00:00,Helsinki Mannerheimintie,9.5,1.0,11.9
 2025-11-20 10:00:00,Vantaa Tikkurila Neilikkatie,5.4,1.0,13.3
@@ -671,3 +623,51 @@ datetime,location,Particulate matter < 2.5 µm,Air Quality Index,Nitrogen dioxid
 2025-11-26 21:00:00,Helsinki Mannerheimintie,8.5,1.0,36.4
 2025-11-26 21:00:00,Vantaa Tikkurila Neilikkatie,9.0,1.0,21.7
 2025-11-26 21:00:00,Tampere Linja-autoasema,2.5,1.0,33.4
+2025-11-26 22:00:00,Espoo Leppävaara Läkkisepänkuja,7.2,1.0,33.0
+2025-11-26 22:00:00,Helsinki Mannerheimintie,8.3,1.0,34.2
+2025-11-26 22:00:00,Vantaa Tikkurila Neilikkatie,7.4,1.0,20.9
+2025-11-26 22:00:00,Tampere Linja-autoasema,4.1,1.0,36.3
+2025-11-26 23:00:00,Espoo Leppävaara Läkkisepänkuja,8.2,1.0,27.8
+2025-11-26 23:00:00,Helsinki Mannerheimintie,8.0,1.0,32.3
+2025-11-26 23:00:00,Vantaa Tikkurila Neilikkatie,6.8,1.0,22.6
+2025-11-26 23:00:00,Tampere Linja-autoasema,3.4,1.0,22.4
+2025-11-27 00:00:00,Espoo Leppävaara Läkkisepänkuja,8.2,1.0,28.7
+2025-11-27 00:00:00,Helsinki Mannerheimintie,8.8,1.0,27.7
+2025-11-27 00:00:00,Vantaa Tikkurila Neilikkatie,7.1,1.0,22.1
+2025-11-27 00:00:00,Tampere Linja-autoasema,2.9,2.0,42.3
+2025-11-27 01:00:00,Espoo Leppävaara Läkkisepänkuja,6.8,1.0,34.5
+2025-11-27 01:00:00,Helsinki Mannerheimintie,10.6,2.0,26.1
+2025-11-27 01:00:00,Vantaa Tikkurila Neilikkatie,6.3,1.0,23.8
+2025-11-27 01:00:00,Tampere Linja-autoasema,2.4,1.0,29.7
+2025-11-27 02:00:00,Espoo Leppävaara Läkkisepänkuja,9.3,1.0,35.0
+2025-11-27 02:00:00,Helsinki Mannerheimintie,9.6,1.0,24.3
+2025-11-27 02:00:00,Vantaa Tikkurila Neilikkatie,6.0,1.0,24.7
+2025-11-27 02:00:00,Tampere Linja-autoasema,1.9,1.0,28.2
+2025-11-27 03:00:00,Espoo Leppävaara Läkkisepänkuja,10.0,1.0,31.3
+2025-11-27 03:00:00,Helsinki Mannerheimintie,7.2,1.0,22.5
+2025-11-27 03:00:00,Vantaa Tikkurila Neilikkatie,6.0,1.0,22.7
+2025-11-27 03:00:00,Tampere Linja-autoasema,2.3,1.0,24.9
+2025-11-27 04:00:00,Espoo Leppävaara Läkkisepänkuja,9.3,1.0,29.1
+2025-11-27 04:00:00,Helsinki Mannerheimintie,7.2,1.0,25.5
+2025-11-27 04:00:00,Vantaa Tikkurila Neilikkatie,6.2,1.0,23.0
+2025-11-27 04:00:00,Tampere Linja-autoasema,2.1,1.0,30.8
+2025-11-27 05:00:00,Espoo Leppävaara Läkkisepänkuja,9.2,1.0,35.6
+2025-11-27 05:00:00,Helsinki Mannerheimintie,2.6,1.0,15.7
+2025-11-27 05:00:00,Vantaa Tikkurila Neilikkatie,6.2,1.0,28.4
+2025-11-27 05:00:00,Tampere Linja-autoasema,2.3,1.0,29.1
+2025-11-27 06:00:00,Espoo Leppävaara Läkkisepänkuja,9.3,2.0,43.4
+2025-11-27 06:00:00,Helsinki Mannerheimintie,2.1,1.0,18.4
+2025-11-27 06:00:00,Vantaa Tikkurila Neilikkatie,6.1,1.0,31.1
+2025-11-27 06:00:00,Tampere Linja-autoasema,3.8,2.0,47.3
+2025-11-27 07:00:00,Espoo Leppävaara Läkkisepänkuja,8.6,2.0,40.2
+2025-11-27 07:00:00,Helsinki Mannerheimintie,2.2,1.0,19.1
+2025-11-27 07:00:00,Vantaa Tikkurila Neilikkatie,5.8,2.0,43.2
+2025-11-27 07:00:00,Tampere Linja-autoasema,3.6,1.0,36.0
+2025-11-27 08:00:00,Espoo Leppävaara Läkkisepänkuja,3.8,2.0,41.9
+2025-11-27 08:00:00,Helsinki Mannerheimintie,3.7,1.0,22.7
+2025-11-27 08:00:00,Vantaa Tikkurila Neilikkatie,5.9,2.0,50.8
+2025-11-27 08:00:00,Tampere Linja-autoasema,3.7,1.0,36.8
+2025-11-27 09:00:00,Espoo Leppävaara Läkkisepänkuja,3.2,1.0,32.8
+2025-11-27 09:00:00,Helsinki Mannerheimintie,3.1,1.0,
+2025-11-27 09:00:00,Vantaa Tikkurila Neilikkatie,4.3,2.0,43.7
+2025-11-27 09:00:00,Tampere Linja-autoasema,3.2,1.0,
