@@ -1,40 +1,4 @@
 datetime,location,Particulate matter < 2.5 µm,Air Quality Index,Nitrogen dioxide
-2026-01-13 22:00:00,Espoo Leppävaara Läkkisepänkuja,4.4,1.0,14.6
-2026-01-13 22:00:00,Helsinki Mannerheimintie,4.0,1.0,12.1
-2026-01-13 22:00:00,Vantaa Tikkurila Neilikkatie,3.0,1.0,8.6
-2026-01-13 23:00:00,Espoo Leppävaara Läkkisepänkuja,4.4,1.0,13.3
-2026-01-13 23:00:00,Helsinki Mannerheimintie,7.3,1.0,7.3
-2026-01-13 23:00:00,Vantaa Tikkurila Neilikkatie,3.0,1.0,9.6
-2026-01-14 00:00:00,Espoo Leppävaara Läkkisepänkuja,5.6,1.0,18.8
-2026-01-14 00:00:00,Helsinki Mannerheimintie,9.8,1.0,5.2
-2026-01-14 00:00:00,Vantaa Tikkurila Neilikkatie,3.4,1.0,8.0
-2026-01-14 01:00:00,Espoo Leppävaara Läkkisepänkuja,10.1,2.0,7.6
-2026-01-14 01:00:00,Helsinki Mannerheimintie,12.2,2.0,5.1
-2026-01-14 01:00:00,Vantaa Tikkurila Neilikkatie,4.0,1.0,8.5
-2026-01-14 02:00:00,Espoo Leppävaara Läkkisepänkuja,10.5,2.0,5.2
-2026-01-14 02:00:00,Helsinki Mannerheimintie,9.3,1.0,5.3
-2026-01-14 02:00:00,Vantaa Tikkurila Neilikkatie,5.8,1.0,8.2
-2026-01-14 03:00:00,Espoo Leppävaara Läkkisepänkuja,7.3,1.0,3.7
-2026-01-14 03:00:00,Helsinki Mannerheimintie,7.6,1.0,4.0
-2026-01-14 03:00:00,Vantaa Tikkurila Neilikkatie,8.4,1.0,3.5
-2026-01-14 04:00:00,Espoo Leppävaara Läkkisepänkuja,7.4,1.0,7.7
-2026-01-14 04:00:00,Helsinki Mannerheimintie,7.1,1.0,5.2
-2026-01-14 04:00:00,Vantaa Tikkurila Neilikkatie,7.6,1.0,7.6
-2026-01-14 05:00:00,Espoo Leppävaara Läkkisepänkuja,7.1,1.0,9.1
-2026-01-14 05:00:00,Helsinki Mannerheimintie,7.8,1.0,7.5
-2026-01-14 05:00:00,Vantaa Tikkurila Neilikkatie,7.5,1.0,15.1
-2026-01-14 06:00:00,Espoo Leppävaara Läkkisepänkuja,9.0,1.0,9.5
-2026-01-14 06:00:00,Helsinki Mannerheimintie,9.5,1.0,8.4
-2026-01-14 06:00:00,Vantaa Tikkurila Neilikkatie,7.5,1.0,14.2
-2026-01-14 07:00:00,Espoo Leppävaara Läkkisepänkuja,10.1,2.0,11.4
-2026-01-14 07:00:00,Helsinki Mannerheimintie,10.2,2.0,9.0
-2026-01-14 07:00:00,Vantaa Tikkurila Neilikkatie,9.0,1.0,13.0
-2026-01-14 08:00:00,Espoo Leppävaara Läkkisepänkuja,6.8,1.0,12.0
-2026-01-14 08:00:00,Helsinki Mannerheimintie,6.7,1.0,12.0
-2026-01-14 08:00:00,Vantaa Tikkurila Neilikkatie,8.7,1.0,10.7
-2026-01-14 09:00:00,Espoo Leppävaara Läkkisepänkuja,5.4,1.0,15.4
-2026-01-14 09:00:00,Helsinki Mannerheimintie,6.3,1.0,10.1
-2026-01-14 09:00:00,Vantaa Tikkurila Neilikkatie,5.4,1.0,11.5
 2026-01-14 10:00:00,Espoo Leppävaara Läkkisepänkuja,6.9,1.0,9.8
 2026-01-14 10:00:00,Helsinki Mannerheimintie,9.7,1.0,10.3
 2026-01-14 10:00:00,Vantaa Tikkurila Neilikkatie,6.9,1.0,9.4
@@ -503,3 +467,39 @@ datetime,location,Particulate matter < 2.5 µm,Air Quality Index,Nitrogen dioxid
 2026-01-20 21:00:00,Espoo Leppävaara Läkkisepänkuja,17.4,2.0,18.9
 2026-01-20 21:00:00,Helsinki Mannerheimintie,12.8,2.0,29.5
 2026-01-20 21:00:00,Vantaa Tikkurila Neilikkatie,17.7,2.0,19.3
+2026-01-20 22:00:00,Espoo Leppävaara Läkkisepänkuja,17.3,2.0,14.8
+2026-01-20 22:00:00,Helsinki Mannerheimintie,16.7,2.0,28.5
+2026-01-20 22:00:00,Vantaa Tikkurila Neilikkatie,19.0,2.0,18.8
+2026-01-20 23:00:00,Espoo Leppävaara Läkkisepänkuja,18.6,2.0,12.8
+2026-01-20 23:00:00,Helsinki Mannerheimintie,19.8,2.0,30.5
+2026-01-20 23:00:00,Vantaa Tikkurila Neilikkatie,18.2,2.0,16.2
+2026-01-21 00:00:00,Espoo Leppävaara Läkkisepänkuja,17.6,2.0,14.8
+2026-01-21 00:00:00,Helsinki Mannerheimintie,14.1,2.0,21.4
+2026-01-21 00:00:00,Vantaa Tikkurila Neilikkatie,13.3,2.0,10.0
+2026-01-21 01:00:00,Espoo Leppävaara Läkkisepänkuja,12.0,2.0,9.8
+2026-01-21 01:00:00,Helsinki Mannerheimintie,10.3,2.0,14.5
+2026-01-21 01:00:00,Vantaa Tikkurila Neilikkatie,7.0,1.0,5.6
+2026-01-21 02:00:00,Espoo Leppävaara Läkkisepänkuja,7.7,1.0,8.5
+2026-01-21 02:00:00,Helsinki Mannerheimintie,6.1,1.0,8.4
+2026-01-21 02:00:00,Vantaa Tikkurila Neilikkatie,5.2,1.0,4.6
+2026-01-21 03:00:00,Espoo Leppävaara Läkkisepänkuja,5.8,1.0,8.0
+2026-01-21 03:00:00,Helsinki Mannerheimintie,6.6,1.0,10.9
+2026-01-21 03:00:00,Vantaa Tikkurila Neilikkatie,4.4,1.0,4.5
+2026-01-21 04:00:00,Espoo Leppävaara Läkkisepänkuja,4.8,1.0,8.8
+2026-01-21 04:00:00,Helsinki Mannerheimintie,3.6,1.0,11.4
+2026-01-21 04:00:00,Vantaa Tikkurila Neilikkatie,2.3,1.0,7.6
+2026-01-21 05:00:00,Espoo Leppävaara Läkkisepänkuja,5.7,1.0,27.9
+2026-01-21 05:00:00,Helsinki Mannerheimintie,1.8,1.0,12.5
+2026-01-21 05:00:00,Vantaa Tikkurila Neilikkatie,2.0,1.0,11.4
+2026-01-21 06:00:00,Espoo Leppävaara Läkkisepänkuja,4.7,1.0,27.6
+2026-01-21 06:00:00,Helsinki Mannerheimintie,2.6,1.0,19.5
+2026-01-21 06:00:00,Vantaa Tikkurila Neilikkatie,2.6,1.0,19.1
+2026-01-21 07:00:00,Espoo Leppävaara Läkkisepänkuja,3.5,1.0,20.7
+2026-01-21 07:00:00,Helsinki Mannerheimintie,3.2,1.0,27.9
+2026-01-21 07:00:00,Vantaa Tikkurila Neilikkatie,2.4,1.0,13.6
+2026-01-21 08:00:00,Espoo Leppävaara Läkkisepänkuja,3.3,1.0,15.1
+2026-01-21 08:00:00,Helsinki Mannerheimintie,3.5,1.0,23.7
+2026-01-21 08:00:00,Vantaa Tikkurila Neilikkatie,2.9,1.0,10.9
+2026-01-21 09:00:00,Espoo Leppävaara Läkkisepänkuja,3.5,1.0,16.5
+2026-01-21 09:00:00,Helsinki Mannerheimintie,5.5,1.0,25.1
+2026-01-21 09:00:00,Vantaa Tikkurila Neilikkatie,2.8,1.0,17.0
